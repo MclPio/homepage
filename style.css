@@ -1,0 +1,77 @@
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* playfair-display-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/playfair-display-v37-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+* {
+  font-family: 'Roboto', serif;
+}
+
+.icon {
+  height: 25px;
+  width: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 85vw;
+}
+
+.header-name {
+  font-size: 80px;
+  position: absolute;
+  text-align: start;
+  transform: translate(10%, -125%);
+  font-weight: 400;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-top: 1rem;
+}
+
+.container-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  margin-bottom: 0;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+}
+
+.decorative-shape {
+  background: #7e22ce;
+  width: 20px;
+  height: 20px;
+  transform: translateX(0) scale(40) rotate(-40deg);
+}
