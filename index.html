@@ -9,7 +9,12 @@
 <body>
   <!-- <div class="decorative-shape"></div> -->
   <div class="header">
-    <img class="header-image" src="img/pexels-dxaxoxfz-21327934.jpg" alt="portrait">
+    <img class="header-image" src="img/portrait-header.jpg" alt="portrait">
+    <picture>
+      <source media="(max-width: 600px)" srcset="portrait-header-480w.jpg">
+      <source media="(min-width: 601px) and (max-width: 1024px)" srcset="portrait-header-800w.jpg">
+      <source media="(min-width: 1025)" srcset="portrait-header-1200w.jpg">
+    </picture>
     <h1 class="header-name">Michael Pious</h1>
   </div>
 

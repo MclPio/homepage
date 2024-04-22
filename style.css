@@ -135,6 +135,10 @@ img {
   margin-top: 1rem;
 }
 
+.header-image {
+  
+}
+
 .container-about {
   display: flex;
   flex-direction: column;
