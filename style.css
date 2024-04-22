@@ -73,6 +73,9 @@ h3 {
 .grid-project {
   display: grid;
   justify-items: center;
+  gap: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .container-project > p {
@@ -124,19 +127,13 @@ img {
   font-size: 80px;
   position: absolute;
   text-align: start;
-  transform: translate(8%, -145%);
+  transform: translate(12%, -130%);
   font-weight: 400;
 }
 
-.header {
-  position: relative;
-  text-align: center;
-  color: white;
-  margin-top: 1rem;
-}
-
 .header-image {
-  
+  width: 80%;
+  filter: drop-shadow(0 5px 5px black);
 }
 
 .container-about {
@@ -151,9 +148,15 @@ img {
   color: #4b5563;
 }
 
+.header {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-top: 1rem;
+  transform: skewY(30deg) translateY(25%)
+}
+
 .decorative-shape {
-  background: #7e22ce;
-  width: 20px;
-  height: 20px;
-  transform: translateX(0) scale(40) rotate(-40deg);
+  background: #6366f1;
+  transform: skewY(-30deg) translateY(-25%)
 }
