@@ -78,7 +78,7 @@ h3 {
   margin-right: 1rem;
 }
 
-.container-project > p {
+.desc-info > p {
   color: #4b5563;
 }
 
@@ -86,6 +86,12 @@ h3 {
   margin-left: 1rem;
   margin-right: 1rem;
   box-shadow: 5px 5px 10px #888888;
+  display: flex;
+  flex-direction: column;
+}
+
+.desc-info {
+  min-height: 180px;
 }
 
 .project-info {
@@ -134,6 +140,7 @@ img {
 .header-image {
   width: 80%;
   filter: drop-shadow(0 5px 5px black);
+  margin-top: 1.5rem;
 }
 
 .container-about {
@@ -159,4 +166,14 @@ img {
 .decorative-shape {
   background: #6366f1;
   transform: skewY(-30deg) translateY(-25%)
+}
+
+@media (max-width: 365px) {
+  .header-name {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  
 }
