@@ -175,5 +175,34 @@ img {
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
-  
+  .container-about > .links {
+    display: none;
+  }
+
+  .decorative-shape {
+    transform: skewY(-15deg) translateY(-40%);
+  }
+
+  .header-image {
+    width: 40%;
+    transform: translateX(-60%) translateY(25%);
+  }
+
+  .header {
+    transform: skewY(15deg) translateY(25%);
+    min-height: 500px;
+  }
+
+  .header-name {
+    transform: translate(50%, -290%);
+    font-weight: 400;
+  }
+
+  .container-about {
+    background: white;
+    box-shadow: 5px 5px 10px #888888;
+    padding: 1rem;
+    transform: translateY(-100%);
+    width: 70%;
+  }
 }
