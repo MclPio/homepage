@@ -53,13 +53,13 @@ a {
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 400;
   margin-bottom: 1rem;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 200;
   margin: 0;
 }
@@ -130,7 +130,7 @@ img {
 }
 
 .header-name {
-  font-size: 80px;
+  font-size: 45px;
   position: absolute;
   text-align: start;
   transform: translate(12%, -130%);
@@ -148,7 +148,7 @@ img {
   flex-direction: column;
   align-items: center;
   margin: 1rem;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 .container-about > p {
@@ -191,31 +191,38 @@ img {
     display: none;
   }
 
+  .title-about {
+    text-align: center;
+  }
+
   .decorative-shape {
-    transform: skewY(-15deg) translateY(-40%);
+    transform: skewY(-15deg) translateY(-50%);
   }
 
   .header-image {
     width: 40%;
-    transform: translateX(-60%) translateY(25%);
-  }
-
-  .header {
-    transform: skewY(15deg) translateY(25%);
-    min-height: 500px;
+    float: left;
+    margin: 0.5rem;
+    margin-right: 1.5rem;
+    transform: translateX(-12%) translateY(-12%) scale(1.25);
   }
 
   .header-name {
-    transform: translate(50%, -290%);
+    color: white;
     font-weight: 400;
+    z-index: 2;
+    transform: translate(8rem, -180%);
+    text-wrap: nowrap;
   }
 
   .container-about {
     background: white;
     box-shadow: 5px 5px 10px #888888;
     padding: 1rem;
-    transform: translateY(-100%);
-    width: 70%;
+    width: 75%;
+    display: block;
+    transform: skewY(15deg) translateY(60%);
+    margin-top: 6rem;
   }
 
   .grid-project {
