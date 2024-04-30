@@ -37,19 +37,13 @@ body {
 }
 
 .icon {
-  height: 3vw;
-  width: 3vw;
+  height: 25px;
+  width: 25px;
 }
 
 .icon.medium {
-  height: 3vw;
-  width: 3vw;
-}
-
-.icon.large {
-  height: 4vw;
-  width: 4vw;
-  margin-top: 1vw;
+  height: 35px;
+  width: 35px;
 }
 
 a {
@@ -210,7 +204,7 @@ footer {
 @media (max-width: 365px) {
   .header-name {
     font-size: 60px;
-    top: 18rem;
+    top: 15rem;
   }
 
   .container-about {
@@ -442,15 +436,6 @@ footer {
 
   .section-about> p {
     margin: 2vw;
-    font-size: 2vw;
-  }
-
-  p {
-    font-size: 2vw;
-  }
-
-  .call-to-action {
-    font-size: 2vw;
   }
 
   .title-about {
@@ -515,7 +500,7 @@ footer {
   }
 
   .footer-image {
-    max-width: 300px;
+    max-width: 50vw;
   }
 
   .contact {
@@ -527,19 +512,6 @@ footer {
   .contact > img {
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(77deg) brightness(102%) contrast(105%);
     display: block;
-  }
-
-  .address {
-    margin-bottom: 1rem;
-    font-size: 2vw;
-  }
-
-  h2 {
-    font-size: 4vw;
-  }
-
-  h3 {
-    font-size: 3vw;
   }
 
   .organize {
