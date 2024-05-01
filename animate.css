@@ -1,0 +1,6 @@
+.github {
+  transition: transform 0.5s ease-in-out;
+}
+.github:hover {
+  transform: scale(1.5) rotate(360deg);
+}
